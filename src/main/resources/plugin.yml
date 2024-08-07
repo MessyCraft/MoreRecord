@@ -1,0 +1,37 @@
+name: MoreRecord
+version: ${project.version}
+author: ImCur_
+main: com.github.messycraft.morerecord.MoreRecord
+api-version: 1.13
+description: Provide more detailed records, such as items, transactions, etc.
+softdepend:
+  - Vault
+  - QuickShop
+website: https://github.com/MessyCraft/MoreRecord
+
+commands:
+  morerecord:
+    description: Main command.
+    aliases: [mr]
+    permission: morerecord.command
+
+permissions:
+  morerecord.command:
+    default: op
+  morerecord.query.pay:
+    default: op
+  morerecord.query.give:
+    default: op
+  morerecord.query.tp:
+    default: op
+  morerecord.query.qs:
+    default: op
+  morerecord.query.cmd:
+    default: op
+  morerecord.query.login:
+    default: op
+  morerecord.save:
+    description: The permission of saving data.
+    default: op
+  morerecord.reload:
+    description: The permission of reloading config.

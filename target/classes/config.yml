@@ -1,0 +1,13 @@
+# 自动存储数据时间 单位_分(min)
+auto-save-minute: 5
+
+# 查询一次最多显示记录数
+query-max-lines: 4
+
+Enable:
+  cmd: false  # 记录玩家使用的命令, 此功能和CoreProtect有重复
+  give: true  # 记录玩家之间每次通过丢弃传递物品的(实验性功能)
+  login: true  # 记录玩家登录的时间和IP
+  tp: true  # 记录玩家每次传送行为的原位置和目的地
+  qs: true  # 需要前置 QuickShop, 记录每次箱子商店交易
+  pay: true  # 需要前置Vault, 配合指令记录玩家之间支付记录
